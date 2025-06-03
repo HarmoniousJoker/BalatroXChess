@@ -1,0 +1,15 @@
+{
+	"id": "chess",
+	"name": "Chess",
+	"display_name": "Chess",
+	"author": ["Eepy,HarmoniousJoker"],
+	"description": "A Chess themed mod for Balatro!",
+	"prefix": "ch",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "660000",
+	"version": "0.1.0",
+	"dependencies": [
+        "Steamodded (>=1.0.0~BETA-0506a)"
+    ]
+}
