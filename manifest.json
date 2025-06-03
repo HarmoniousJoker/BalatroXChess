@@ -2,7 +2,7 @@
 	"id": "chess",
 	"name": "Chess",
 	"display_name": "Chess",
-	"author": ["Eepy,HarmoniousJoker"],
+	"author": ["Eepy, HarmoniousJoker"],
 	"description": "A Chess themed mod for Balatro!",
 	"prefix": "ch",
 	"main_file": "main.lua",
