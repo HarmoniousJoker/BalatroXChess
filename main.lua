@@ -14,7 +14,9 @@ local files = {
     jokers = {
         list = {
             "pawn",
-            "knight"
+            "knight",
+            "bishop",
+            "rook"
         },
         directory = "content/jokers"
     },

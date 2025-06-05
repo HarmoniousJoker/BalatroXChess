@@ -21,7 +21,23 @@ return {
                     "{C:green}1 in 2{} chance of transforming",
                     "unscored card into a {C:attention}Steel{} card",
                 }
-            }
+            },
+            j_ch_bishop = {
+                name = "Bishop",
+                text = {
+                    "{C:attention}Gold Cards{} give {C:money}+$#1#",
+                    "after each hand",
+                }
+            },
+            j_ch_rook = {
+                name = "Rook",
+                text = {
+                    "Each {C:attention}Stone Card{} held in hand",
+                    "gives {C:mult}+#1#{} Mult, increases by",
+                    "{C:mult}+#2#{} Mult when you play a hand",
+                    "containing only {C:attention}Stone Cards"
+                }
+            },
         },
         Other={},
         Planet={},
@@ -47,7 +63,9 @@ return {
         suits_plural={},
         suits_singular={},
         tutorial={},
-        v_dictionary={},
+        v_dictionary={
+            a_ch_money = "+$#1#",
+        },
         v_text={},
     },
 }
