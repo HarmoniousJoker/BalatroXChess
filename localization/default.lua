@@ -13,6 +13,15 @@ return {
                     "{C:inactive}(Currently {C:chips}+#3#{C:inactive} Chips)",
                 }
             },
+            j_ch_knight = {
+                name = "Knight",
+                text = {
+                    "If scored hand is a {C:attention}Pair",
+                    "with one unscored card,",
+                    "{C:green}1 in 2{} chance of transforming",
+                    "unscored card into a {C:attention}Steel{} card",
+                }
+            }
         },
         Other={},
         Planet={},
