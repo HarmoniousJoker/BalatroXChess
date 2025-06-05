@@ -16,7 +16,7 @@ SMODS.Joker {
             card.ability.extra.chips = math.max(0, card.ability.extra.chips - card.ability.extra.discard_sub)
             if card.ability.extra.chips ~= prev_mult then
                 return {
-                    message = localize { type = 'variable', key = 'a_chips_minus', vars = { card.ability.extra.discard_sub } },
+                    message = localize { type = "variable", key = "a_chips_minus", vars = { card.ability.extra.discard_sub } },
                     colour = G.C.BLUE
                 }
             end
@@ -24,7 +24,7 @@ SMODS.Joker {
         if context.before and context.main_eval and not context.blueprint then
             card.ability.extra.chips = card.ability.extra.chips + card.ability.extra.hand_add
             return {
-                message = localize { type = 'variable', key = 'a_chips', vars = { card.ability.extra.hand_add } },
+                message = localize { type = "variable", key = "a_chips", vars = { card.ability.extra.hand_add } },
                 colour = G.C.BLUE
             }
         end
