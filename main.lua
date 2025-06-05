@@ -1,8 +1,10 @@
 CH_UTIL = {}
 
+SMODS.load_file("utils.lua")()
+
 SMODS.Atlas {
-	key = 'joker',
-	path = 'joker.png',
+	key = "joker",
+	path = "joker.png",
 	px = 71,
 	py = 95
 }
@@ -12,6 +14,7 @@ local files = {
     jokers = {
         list = {
             "pawn",
+            "knight"
         },
         directory = "content/jokers"
     },
@@ -20,7 +23,7 @@ local files = {
 -- load everything
 function CH_UTIL.load_files(items, path)
     for i = 1, #items do
-        assert(SMODS.load_file(path .. "/" .. items[i] .. '.lua'))()
+        assert(SMODS.load_file(path .. "/" .. items[i] .. ".lua"))()
     end
 end
 
