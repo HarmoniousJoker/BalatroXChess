@@ -6,7 +6,7 @@ return {
         Enhanced={},
         Joker={
             j_ch_pawn = {
-                name = "Pawn",
+                name = "The Pawn",
                 text = {
                     "{C:chips}+#1#{} Chips per hand played",
                     "{C:chips}-#2#{} Chips per discard",
@@ -14,7 +14,7 @@ return {
                 }
             },
             j_ch_knight = {
-                name = "Knight",
+                name = "The Knight",
                 text = {
                     "If scored hand is a {C:attention}Pair",
                     "with one unscored card,",
@@ -23,14 +23,14 @@ return {
                 }
             },
             j_ch_bishop = {
-                name = "Bishop",
+                name = "The Bishop",
                 text = {
                     "{C:attention}Gold Cards{} give {C:money}+$#1#",
                     "after each hand",
                 }
             },
             j_ch_rook = {
-                name = "Rook",
+                name = "The Rook",
                 text = {
                     "Each {C:attention}Stone Card{} held in hand",
                     "gives {C:mult}+#1#{} Mult, increases by",
