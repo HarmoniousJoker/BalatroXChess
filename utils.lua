@@ -32,3 +32,10 @@ function CH_UTIL.transform_card(old_card, center, edition)
         end,
     }))
 end
+
+--Function to load files from a specified path
+function CH_UTIL.load_files(items, path)
+    for i = 1, #items do
+        assert(SMODS.load_file(path .. "/" .. items[i] .. ".lua"))()
+    end
+end
