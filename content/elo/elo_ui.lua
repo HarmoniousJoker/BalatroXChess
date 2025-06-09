@@ -166,7 +166,7 @@ local function create_UIBox_position_sliders()
 				config = { align = 'tm' },
 				nodes = {
 					create_slider({
-						label = locale.translate('elo_x_position_setting'),
+						label = "X position",
 						scale = 0.8,
 						label_scale = 0.8 * 0.5,
 						ref_table = elo_ui.style.position,
@@ -189,7 +189,7 @@ local function create_UIBox_position_sliders()
 				config = { align = 'bm' },
 				nodes = {
 					create_slider({
-						label = locale.translate('elo_y_position_setting'),
+						label = "Y position",
 						scale = 0.8,
 						label_scale = 0.8 * 0.5,
 						ref_table = elo_ui.style.position,
